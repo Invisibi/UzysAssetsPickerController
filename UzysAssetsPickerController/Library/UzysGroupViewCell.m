@@ -16,8 +16,8 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         // Initialization code
-        self.textLabel.font = [UIFont fontWithName:@"AppleSDGothicNeo-Medium" size:17];
-        self.detailTextLabel.font = [UIFont fontWithName:@"AppleSDGothicNeo-Medium" size:11];
+        self.textLabel.font = [UIFont systemFontOfSize:17.f];
+        self.detailTextLabel.font = [UIFont systemFontOfSize:11.f];
         UzysAppearanceConfig *appearanceConfig = [UzysAppearanceConfig sharedConfig];
         self.accessoryView = [[UIImageView alloc] initWithImage:[UIImage Uzys_imageNamed:appearanceConfig.assetsGroupSelectedImageName]];
         self.selectedBackgroundView = nil;
