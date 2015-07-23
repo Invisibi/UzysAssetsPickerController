@@ -146,7 +146,6 @@
     [self.btnClose setImage:[UIImage Uzys_imageNamed:appearanceConfig.closeImageName] forState:UIControlStateNormal];
     self.btnDone.layer.cornerRadius = 15;
     self.btnDone.clipsToBounds = YES;
-    [self.btnDone setBackgroundColor:appearanceConfig.finishSelectionButtonColor];
     
     UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 0.5)];
     lineView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.15f];
